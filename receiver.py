@@ -40,7 +40,6 @@ def main():
 
         thread = threading.Thread(target=handle_client, args=(nickname, client,))
         thread.start()
-        # thread.join()
         
 
 if __name__=='__main__':
